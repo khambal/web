@@ -12,9 +12,9 @@
     <header>
         <ul>
             <li><a class="links" href="#user"><button class="signbutton" type="button">Sign up</button></a></li>
-            <li><a href="#grid"><img class="grid" src="https://www.google.com/url?sa=i&url=https%3A%2F%2F1000logos.net%2Fgoogle-logo%2F&psig=AOvVaw1KV7XeoRCUtiYljCbK9KAn&ust=1650034407698000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJiipK3nk_cCFQAAAAAdAAAAABAD"></a></li>
+            <li><a href="#grid"><img class="grid" src="https//cdn3.iconfinder.com/data/icons/navigation-and-settings/24/Material_icons-01-1"></a></li>
             <li><a href="./image.html">images</a></li>
-            <li><a href="./advanced.html">advanced</a></li>
+            <li><a href="./index.html">search</a></li>
 
         </ul>
         <style>
@@ -82,21 +82,49 @@
     </header>
 </center>
 <body>
-    <div class="logo">
-        <img  src="https://www.Google.com/images/branding/Googlelogo/1x/Googlelogo_color_272x92dp.png" alt="Google">
-    </div>
-    <form action="https://google.com/search">
-        <div class="bar">
-            <input class="searchbar" type="text" title="Google search" name="q">
-            <a href="#">
-                <img class="voice" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px">
-            </a>
+    <div class="container">
 
-        </div>
-        <div class="buttons">
-            <button class="button" type="submit">Goole search</button>
-            <button class="button">i'm Feeling Lucky</button>
-        </div>
-    </form>
+        <form action="https://www.google.com/search" method="get">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">all these words</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="all these words">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="as_q">This exact words or phrases</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="as_q" name="firstname" placeholder="this axct word or phrase:..">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="as_oq">any of these words</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="as_oq" name="as_oq" placeholder="all these words">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="as_eq">none these words</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="as_eq" name="as_eq" placeholder="all these words">
+                </div>
+            </div>
+
+            <div class="row">
+                <input type="submit" value="Advanced search">
+            </div>
+        </form>
+    </div>
 </body>
 </html>
